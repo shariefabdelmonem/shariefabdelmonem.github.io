@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>لينكات مهمة مع شريف</title>
+<meta name="description" content="مجموعة مهارات وأدوات بالذكاء الاصطناعي للمعلمين وصنّاع المحتوى: خطة تعلّم الإنجليزي في 30 يوم، فيديوهات موشن للدروس، عروض تفاعلية، كتب تفاعلية، وسكينة TV.">
+<meta property="og:title" content="لينكات مهمة مع شريف">
+<meta property="og:description" content="مهارات وأدوات بالذكاء الاصطناعي للمعلمين وصنّاع المحتوى.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="assets/logo.png">
+<meta name="theme-color" content="#1A181C">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+/* ===== ألوان الهوية: غيّرها من هنا فقط ===== */
+:root{
+  --brand:#1A181C;      /* أسود اللوجو */
+  --brand-2:#2B282E;
+  --accent:#FFCA00;     /* أصفر اللوجو */
+  --on-accent:#1A181C;
+  --bg:#FBF8EF;
+  --card:#FFFFFF;
+  --ink:#1A181C;
+  --muted:#5E5A62;
+  --line:#EBE4CF;
+  --shadow:0 10px 30px rgba(26,24,28,.10);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121014; --card:#1E1B21; --ink:#F4F1EA; --muted:#B3AEB8; --line:#2E2A33; --brand-2:#2B282E;
+    --shadow:0 10px 30px rgba(0,0,0,.35);
+  }
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:'Cairo',system-ui,sans-serif;background:var(--bg);color:var(--ink);line-height:1.8;-webkit-font-smoothing:antialiased}
+.wrap{max-width:880px;margin:0 auto;padding:0 16px}
+
+/* الهيدر */
+.hero{background:var(--brand);color:#fff;padding:40px 0 92px;position:relative;overflow:hidden}
+.hero::before{content:"";position:absolute;inset:-40% auto auto -15%;width:420px;height:420px;border-radius:50%;background:radial-gradient(circle,rgba(255,202,0,.22),transparent 68%)}
+.hero .wrap{position:relative;display:grid;gap:8px;justify-items:center;text-align:center}
+.logo{width:min(250px,62vw);height:auto;display:block}
+.hero h1{font-size:clamp(2rem,7vw,3.1rem);font-weight:800;line-height:1.35}
+.hero h1 span{color:var(--accent)}
+.hero p{font-size:1.1rem;max-width:560px;opacity:.88}
+@media (min-width:760px){
+  .hero{padding:56px 0 104px}
+  .hero .wrap{grid-template-columns:1fr auto;text-align:right;justify-items:start;align-items:center;column-gap:40px}
+  .hero .txt{grid-column:1;grid-row:1}
+  .hero h1{font-size:2.6rem;white-space:nowrap}
+  .logo{grid-column:2;grid-row:1;width:300px}
+}
+
+/* الكروت */
+main{margin-top:-48px;position:relative;z-index:2;padding-bottom:40px}
+.list{display:grid;gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;box-shadow:var(--shadow);display:grid;gap:12px;transition:transform .2s ease,box-shadow .2s ease}
+.card:hover{transform:translateY(-3px)}
+.top{display:flex;align-items:center;gap:14px}
+.num{flex:none;width:42px;height:42px;border-radius:12px;background:var(--accent);color:var(--on-accent);display:grid;place-items:center;font-weight:800;font-size:1.15rem}
+.card h2{font-size:1.3rem;font-weight:800;line-height:1.5}
+.tag{display:inline-block;font-size:.8rem;font-weight:600;color:var(--ink);background:color-mix(in srgb,var(--accent) 30%,transparent);padding:1px 10px;border-radius:99px}
+.card p{color:var(--muted);font-size:1.02rem}
+.btn{justify-self:start;display:inline-flex;align-items:center;gap:8px;background:var(--accent);color:var(--on-accent);text-decoration:none;font-weight:800;padding:10px 22px;border-radius:12px;box-shadow:0 3px 0 rgba(26,24,28,.9);transition:transform .15s,box-shadow .15s}
+.btn:hover,.btn:focus-visible{transform:translateY(2px);box-shadow:0 1px 0 rgba(26,24,28,.9)}
+.btn:focus-visible{outline:3px solid var(--ink);outline-offset:3px}
+.btn svg{width:18px;height:18px;transform:scaleX(-1)}
+.url{direction:ltr;font-size:.8rem;color:var(--muted);word-break:break-all;opacity:.85}
+
+footer{text-align:center;color:var(--muted);padding:12px 16px 48px;font-size:.95rem}
+footer b{color:var(--ink)}
+@media (min-width:700px){.card{padding:28px 30px}.hero{padding:72px 0 96px}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <img class="logo" src="assets/logo.png" alt="شعار شريف عبد المنعم" width="300" height="252">
+    <div class="txt">
+      <h1>لينكات مهمة <span>مع شريف</span></h1>
+      <p>أدوات ومهارات بالذكاء الاصطناعي لخدمة المعلم وصانع المحتوى. اختار اللي يناسبك، وافتح اللينك، وابدأ.</p>
+    </div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap list">
+
+    <article class="card">
+      <div class="top"><div class="num">١</div><div><h2>خطة الـ 30 يوم مع الـ AI</h2><span class="tag">تعلّم الإنجليزي</span></div></div>
+      <p>خطة عملية لتعلّم الإنجليزي بالذكاء الاصطناعي في 30 يوم. فيها كتاب تمارين (Workbook) بصيغة PDF، وملف Excel بتتابع فيه تقدّمك يوم بيوم.</p>
+      <a class="btn" href="https://drive.google.com/drive/u/1/folders/17CagqtdCehS0t8WACBWHou3-6xezEjWC" target="_blank" rel="noopener">افتح الخطة <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="url">drive.google.com/…/17CagqtdCehS0t8WACBWHou3-6xezEjWC</div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div class="num">٢</div><div><h2>مهارة تحويل الدرس لفيديو موشن جرافيكس</h2><span class="tag">Lesson Motion Studio</span></div></div>
+      <p>تدّيها موضوع الدرس أو صورة منه، وتطلّع لك فيديو شرح بأسلوب السبورة: رسومات بالقلم، وخط Cairo، وتوقيت مظبوط على التعليق الصوتي، وتصدير MP4. بتشتغل بالعربي والإنجليزي.</p>
+      <a class="btn" href="https://github.com/shariefabdelmonem/lesson-motion-studio" target="_blank" rel="noopener">افتح المهارة <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="url">github.com/shariefabdelmonem/lesson-motion-studio</div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div class="num">٣</div><div><h2>سكينة TV: تلفزيونك على كيفك</h2><span class="tag">Sakina TV</span></div></div>
+      <p>بتنضّف الأندرويد تي في والجوجل تي في من الإعلانات والتطبيقات اللي بتجمع بياناتك، من غير ما تمسح حاجة. وتضيف عليه أذان وتنبيهات مواعيد الصلاة، وصفحة تبعت منها رسايل من موبايلك للتلفزيون.</p>
+      <a class="btn" href="https://github.com/shariefabdelmonem/sakina-tv" target="_blank" rel="noopener">افتح سكينة TV <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="url">github.com/shariefabdelmonem/sakina-tv</div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div class="num">٤</div><div><h2>مهارة العروض التقديمية التفاعلية (HTML)</h2><span class="tag">Interactive HTML Presentation</span></div></div>
+      <p>بتبني لك عرض تقديمي بصيغة HTML فيه تفاعل حقيقي، يتفتح في أي متصفح من غير برامج. مناسب للحصص والورش، وبيخلّي الطلاب يشاركوا بدل ما يتفرجوا بس.</p>
+      <a class="btn" href="https://shariefabdelmonem.github.io/interactive-html-presentation/install.html?v=2#claude" target="_blank" rel="noopener">افتح المهارة <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="url">shariefabdelmonem.github.io/interactive-html-presentation</div>
+    </article>
+
+    <article class="card">
+      <div class="top"><div class="num">٥</div><div><h2>مهارة تحويل أي كتاب PDF لملف تفاعلي حي</h2><span class="tag">Interactive Book Builder</span></div></div>
+      <p>بتاخد كتاب مدرسي أو ورقة عمل (PDF أو صور صفحات) وتحوّلها لكتاب تفاعلي تقلّب صفحاته، فيه إجابات، ونماذج علوم متحركة، وموشن جرافيكس للجغرافيا، ورسوم رياضيات حية.</p>
+      <a class="btn" href="https://github.com/shariefabdelmonem/interactive-book-builder" target="_blank" rel="noopener">افتح المهارة <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <div class="url">github.com/shariefabdelmonem/interactive-book-builder</div>
+    </article>
+
+  </div>
+</main>
+
+<footer>صُنع بحب للمعلمين · <b>شريف عبد المنعم</b></footer>
+</body>
+</html>
